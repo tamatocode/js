@@ -50,5 +50,26 @@ function calculateCartPrice(val1,val2,...num1){
 // console.log(calculateCartPrice(200,300,400));
 
 const user ={
+    name:"adin azam",
+    screentime: "15 hours"
+}
+
+function handleUser(user){
+    console.log(`user's name is ${user.name} and his screentime is ${user.screentime}`);
     
 }
+
+// handleUser(user)
+
+handleUser({
+    name:"me",
+    screentime:"2hr"
+})
+
+const myNewArray = [1,10,100,1000,10000]
+
+function secondValue(getarray){
+    return getarray[1]
+}
+// console.log(secondValue(myNewArray));
+console.log(secondValue([2000,300]));
