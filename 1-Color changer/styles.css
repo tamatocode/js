@@ -1,0 +1,67 @@
+html{
+    margin: 0px;
+}
+body {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+  }
+
+span{
+    display: block;
+}
+
+.canvas{
+    margin: 100px auto 100px;
+    width: 80%;
+    text-align: center;
+}
+
+
+.button {
+    width: 100px;
+    height: 100px;
+    border: solid black 2px;
+    display: inline-block;
+  }
+
+#red{
+    background-color: red;
+}
+
+#blue{
+    background-color: blue;
+}
+
+#green{
+    background-color: green;
+}
+
+#yellow{
+    background-color: yellow;
+}
+#purple{
+    background-color: purple;
+}
+#grey{
+    background-color: grey;
+}
+#darkblue{
+    background-color: darkblue;
+}
+#cyan{
+    background-color: cyan;
+}
+#orange{
+    background-color: orange;
+}
+#silver{
+    background-color: silver;
+}
+#tomato{
+    background-color: tomato;
+}
